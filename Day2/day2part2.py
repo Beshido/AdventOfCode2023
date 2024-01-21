@@ -23,7 +23,6 @@ def parser():
                                 fewPerColor["green"] = count
                             elif word == "blue" and count > fewPerColor["blue"]:
                                 fewPerColor["blue"] = count
-                print(fewPerColor)
                 compteur = compteur + (fewPerColor["red"] * fewPerColor["green"] * fewPerColor["blue"])
     return compteur
   
